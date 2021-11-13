@@ -2,7 +2,7 @@
 pragma solidity >=0.8.10;
 
 /* Package Imports */
-import "@hifi-finance/prb-math/PRBMathUD60X18.sol";
+import "@hifi-finance/prb-math/PRBMathUD60x18.sol";
 
 library ShiftDecimals {
     using PRBMathUD60x18 for uint256;
